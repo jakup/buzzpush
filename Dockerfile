@@ -4,4 +4,4 @@ COPY . /app
 
 RUN pip install -r /app/requirements.txt
 
-ENTRYPOINT ["python", "/app/buzzcron.py"]
+ENTRYPOINT ["python", "/app/buzzpush.py"]
